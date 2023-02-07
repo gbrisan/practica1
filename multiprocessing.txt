@@ -1,171 +1,111 @@
-Script started on Tue Feb  7 14:27:14 2023
-
-The default interactive shell is now zsh.
-To update your account to use zsh, please run `chsh -s /bin/zsh`.
-For more details, please visit https://support.apple.com/kb/HT208050.
-[?1034hbash-3.2$ script multiprocessing.txt[C[C[C[C[C[C[C[C[C[Cgit clone git@github.com:gbrisan/practica1.git[C[C[C[C[C[C[C[C[C[Ccd ~/practica1[K[C[C[C[C[C[C[C[C[C[C[2Pls -al .ssh/[C[C[C[C[C[C[C[C[C[Cunzip ssh.zip[C[C[C[C[C[C[C[C[C[Cls[Kunzip ssh.zip
-Archive:  ssh.zip
-replace .ssh/known_hosts? [y]es, [n]o, [A]ll, [N]one, [r]ename: y
-  inflating: .ssh/known_hosts        
-replace .ssh/id_rsa? [y]es, [n]o, [A]ll, [N]one, [r]ename: y
+Script started on 2023-02-02 09:22:48+01:00 [TERM="xterm-256color" TTY="/dev/pts/0" COLUMNS="80" LINES="24"]
+[?2004h]0;alumno@aula426: ~[01;32malumno@aula426[00m:[01;34m~[00m$ rm -r .ssh/
+[?2004lrm: no se puede borrar '.ssh/': No existe el archivo o el directorio
+[?2004h]0;alumno@aula426: ~[01;32malumno@aula426[00m:[01;34m~[00m$ unzip Descargas/ssh.zip
+[?2004lArchive:  Descargas/ssh.zip
+   creating: .ssh/
   inflating: .ssh/id_rsa             
-replace .ssh/id_rsa.pub? [y]es, [n]o, [A]ll, [N]one, [r]ename: y
   inflating: .ssh/id_rsa.pub         
-bash-3.2$ unzip ssh.zip[C[C[C[C[C[C[C[C[C[Cscript multiprocessing.txt[C[C[C[C[C[C[C[C[C[Cgit clone git@github.com:gbrisan/practica1.git[C[C[C[C[C[C[C[C[C[Ccd ~/practica1[K[C[C[C[C[C[C[C[C[C[C[2Pls -al .ssh/[C[C[C[C[C[C[C[C[C[Cunzip ssh.zip[C[C[C[C[C[C[C[C[C[C[1Pls -al .ssh/
-total 24
-drwx------   5 marcelaygabriela  staff   160  7 feb 14:27 .
-drwxr-xr-x+ 56 marcelaygabriela  staff  1792  7 feb 14:27 ..
--rw-------   1 marcelaygabriela  staff  1823 26 ene 09:21 id_rsa
--rw-r--r--   1 marcelaygabriela  staff   396 26 ene 09:21 id_rsa.pub
--rw-r--r--   1 marcelaygabriela  staff   270 23 may  2022 known_hosts
-bash-3.2$ ls -al .ssh/[C[C[C[C[C[C[C[C[C[Cunzip ssh.zip[C[C[C[C[C[C[C[C[C[Cscript multiprocessing.txt[C[C[C[C[C[C[C[C[C[Cgit clone git@github.com:gbrisan/practica1.git[C[C[C[C[C[C[C[C[C[Ccd ~/practica1[K[C[C[C[C[C[C[C[C[C[Cgit clone git@github.com:gbrisan/practica1.git
-Cloning into 'practica1'...
+  inflating: .ssh/known_hosts        
+[?2004h]0;alumno@aula426: ~[01;32malumno@aula426[00m:[01;34m~[00m$ ls -al .ssh/
+[?2004ltotal 20
+drwx------  2 alumno alumno 4096 ene 26 09:21 [0m[01;34m.[0m
+drwxr-x--- 31 alumno alumno 4096 feb  2 09:52 [01;34m..[0m
+-rw-------  1 alumno alumno 1823 ene 26 09:21 id_rsa
+-rw-r--r--  1 alumno alumno  396 ene 26 09:21 id_rsa.pub
+-rw-r--r--  1 alumno alumno  270 may 23  2022 known_hosts
+[?2004h]0;alumno@aula426: ~[01;32malumno@aula426[00m:[01;34m~[00m$ git clone git@github.com:gbrisan/practica1.git
+[?2004lClonando en 'practica1'...
 The authenticity of host 'github.com (140.82.121.3)' can't be established.
-ECDSA key fingerprint is SHA256:p2QAMXNIC1TJYWeIOttrVc98/R1BUFWu3/LiyKgUfQM.
+ED25519 key fingerprint is SHA256:+DiY3wvvV6TuJJhbpZisF/zLDA0zPMSvHdkr4UvCOqU.
+This key is not known by any other names
 Are you sure you want to continue connecting (yes/no/[fingerprint])? yes
-Warning: Permanently added 'github.com,140.82.121.3' (ECDSA) to the list of known hosts.
-remote: Enumerating objects: 26, done.[K
-remote: Counting objects:   3% (1/26)[Kremote: Counting objects:   7% (2/26)[Kremote: Counting objects:  11% (3/26)[Kremote: Counting objects:  15% (4/26)[Kremote: Counting objects:  19% (5/26)[Kremote: Counting objects:  23% (6/26)[Kremote: Counting objects:  26% (7/26)[Kremote: Counting objects:  30% (8/26)[Kremote: Counting objects:  34% (9/26)[Kremote: Counting objects:  38% (10/26)[Kremote: Counting objects:  42% (11/26)[Kremote: Counting objects:  46% (12/26)[Kremote: Counting objects:  50% (13/26)[Kremote: Counting objects:  53% (14/26)[Kremote: Counting objects:  57% (15/26)[Kremote: Counting objects:  61% (16/26)[Kremote: Counting objects:  65% (17/26)[Kremote: Counting objects:  69% (18/26)[Kremote: Counting objects:  73% (19/26)[Kremote: Counting objects:  76% (20/26)[Kremote: Counting objects:  80% (21/26)[Kremote: Counting objects:  84% (22/26)[Kremote: Counting objects:  88% (23/26)[Kremote: Counting objects:  92% (24/26)[Kremote: Counting objects:  96% (25/26)[Kremote: Counting objects: 100% (26/26)[Kremote: Counting objects: 100% (26/26), done.[K
-remote: Compressing objects:   4% (1/24)[Kremote: Compressing objects:   8% (2/24)[Kremote: Compressing objects:  12% (3/24)[Kremote: Compressing objects:  16% (4/24)[Kremote: Compressing objects:  20% (5/24)[Kremote: Compressing objects:  25% (6/24)[Kremote: Compressing objects:  29% (7/24)[Kremote: Compressing objects:  33% (8/24)[Kremote: Compressing objects:  37% (9/24)[Kremote: Compressing objects:  41% (10/24)[Kremote: Compressing objects:  45% (11/24)[Kremote: Compressing objects:  50% (12/24)[Kremote: Compressing objects:  54% (13/24)[Kremote: Compressing objects:  58% (14/24)[Kremote: Compressing objects:  62% (15/24)[Kremote: Compressing objects:  66% (16/24)[Kremote: Compressing objects:  70% (17/24)[Kremote: Compressing objects:  75% (18/24)[Kremote: Compressing objects:  79% (19/24)[Kremote: Compressing objects:  83% (20/24)[Kremote: Compressing objects:  87% (21/24)[Kremote: Compressing objects:  91% (22/24)[Kremote: Compressing objects:  95% (23/24)[Kremote: Compressing objects: 100% (24/24)[Kremote: Compressing objects: 100% (24/24), done.[K
-Receiving objects:   3% (1/26)Receiving objects:   7% (2/26)Receiving objects:  11% (3/26)Receiving objects:  15% (4/26)Receiving objects:  19% (5/26)Receiving objects:  23% (6/26)Receiving objects:  26% (7/26)Receiving objects:  30% (8/26)Receiving objects:  34% (9/26)Receiving objects:  38% (10/26)Receiving objects:  42% (11/26)Receiving objects:  46% (12/26)Receiving objects:  50% (13/26)remote: Total 26 (delta 10), reused 9 (delta 1), pack-reused 0[K
-Receiving objects:  53% (14/26)Receiving objects:  57% (15/26)Receiving objects:  61% (16/26)Receiving objects:  65% (17/26)Receiving objects:  69% (18/26)Receiving objects:  73% (19/26)Receiving objects:  76% (20/26)Receiving objects:  80% (21/26)Receiving objects:  84% (22/26)Receiving objects:  88% (23/26)Receiving objects:  92% (24/26)Receiving objects:  96% (25/26)Receiving objects: 100% (26/26)Receiving objects: 100% (26/26), 16.87 KiB | 1.41 MiB/s, done.
-Resolving deltas:   0% (0/10)Resolving deltas:  10% (1/10)Resolving deltas:  20% (2/10)Resolving deltas:  30% (3/10)Resolving deltas:  40% (4/10)Resolving deltas:  50% (5/10)Resolving deltas:  60% (6/10)Resolving deltas:  70% (7/10)Resolving deltas:  80% (8/10)Resolving deltas:  90% (9/10)Resolving deltas: 100% (10/10)Resolving deltas: 100% (10/10), done.
-bash-3.2$ git clone git@github.com:gbrisan/practica1.git[C[C[C[C[C[C[C[C[C[Cls -al .ssh/[K[C[C[C[C[C[C[C[C[C[Cunzip ssh.zip[C[C[C[C[C[C[C[C[C[Cscript multiprocessing.txt[C[C[C[C[C[C[C[C[C[Cgit clone git@github.com:gbrisan/practica1.git[C[C[C[C[C[C[C[C[C[Ccd ~/practica1[K[C[C[C[C[C[C[C[C[C[C[2Pls -al .ssh/[C[C[C[C[C[C[C[C[C[Ccd ~/practica1
-bash-3.2$ cd ~/practica1[C[C[C[C[C[C[C[C[C[Cgit clone git@github.com:gbrisan/practica1.git[C[C[C[C[C[C[C[C[C[Cls -al .ssh/[K[C[C[C[C[C[C[C[C[C[Cunzip ssh.zip[C[C[C[C[C[C[C[C[C[Cscript multiprocessing.txt[C[C[C[C[C[C[C[C[C[Cgit clone git@github.com:gbrisan/practica1.git[C[C[C[C[C[C[C[C[C[Ccd ~/practica1[K[C[C[C[C[C[C[C[C[C[C[2Pls -al .ssh/[C[C[C[C[C[C[C[C[C[Cunzip ssh.zip[C[C[C[C[C[C[C[C[C[Cls[Kcdgit pushcommit -m "4_procesos"[C[C[C[C[C[C[C[C[C[C[C[C[C[C[4Padd 4_procesos.py [C[C[C[C[C[C[C[C[C[Cpython3[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[14Pgit pushcommit -m "2_procesos"[C[C[C[C[C[C[C[C[C[C[C[C[C[Cpush[Kpython3 4_procesos.py [C[C[C[C[C[C[C[C[C
-/Library/Frameworks/Python.framework/Versions/3.10/bin/python3: can't open file '/Users/marcelaygabriela/practica1/4_procesos.py': [Errno 2] No such file or directory
-bash-3.2$ python3 4_procesos.py 
-  File "/Users/marcelaygabriela/practica1/4_procesos.py", line 17
-    c = Value(’i’, 0) 
-              ^
-SyntaxError: invalid character '’' (U+2019)
-bash-3.2$ python3 4_procesos.py [C[C[C[C[C[C[C[C[C[C[8Pcd ~/practica1[C[C[C[C[C[C[C[C[C[Cgit clone git@github.com:gbrisan/practica1.git[C[C[C[C[C[C[C[C[C[Cls -al .ssh/[K[C[C[C[C[C[C[C[C[C[Cunzip ssh.zip[C[C[C[C[C[C[C[C[C[Cscript multiprocessing.txt[C[C[C[C[C[C[C[C[C[C[13Punzip ssh.zip[C[C[C[C[C[C[C[C[C[C[1Pls -al .ssh/[C[C[C[C[C[C[C[C[C[Cgit clone git@github.com:gbrisan/practica1.git[C[C[C[C[C[C[C[C[C[Cls -al .ssh/[K[C[C[C[C[C[C[C[C[C[Cunzip ssh.zip[C[C[C[C[C[C[C[C[C[Cscript multiprocessing.txt[C[C[C[C[C[C[C[C[C[Cgit clone git@github.com:gbrisan/practica1.git[C[C[C[C[C[C[C[C[C[Ccd ~/practica1[K[C[C[C[C[C[C[C[C[C[C[2Pls -al .ssh/[C[C[C[C[C[C[C[C[C[Cunzip ssh.zip[C[C[C[C[C[C[C[C[C[Cls[Kcdgit pushcommit -m "4_procesos"[C[C[C[C[C[C[C[C[C[C[C[C[C[C[4Padd 4_procesos.py 
-bash-3.2$ git add 4_procesos.py [C[C[C[C[C[C[C[C[C[Cpython3[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[8Pcd ~/practica1[C[C[C[C[C[C[C[C[C[Cgit clone git@github.com:gbrisan/practica1.git[C[C[C[C[C[C[C[C[C[Cls -al .ssh/[K[C[C[C[C[C[C[C[C[C[Cunzip ssh.zip[C[C[C[C[C[C[C[C[C[Cscript multiprocessing.txt[C[C[C[C[C[C[C[C[C[Cgit clone git@github.com:gbrisan/practica1.git[C[C[C[C[C[C[C[C[C[Ccd ~/practica1[K[C[C[C[C[C[C[C[C[C[C[2Pls -al .ssh/[C[C[C[C[C[C[C[C[C[Cunzip ssh.zip[C[C[C[C[C[C[C[C[C[Cls[Kcdgit pushcommit -m "4_procesos"[C[C[C[C[C[C[C[C[C[C[C[C[C[C[4Padd 4_procesos.py [C[C[C[C[C[C[C[C[C[Cpython3[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[14Pgit pushcommit -m "2_procesos"[C[C[C[C[C[C[C[C[C[C[C[C[C[C[4Padd 2_procesos.py [C[C[C[C[C[C[C[C[C[Cpython3[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[14Pgit pushcommit -m "3_procesos"[C[C[C[C[C[C[C[C[C[C[C[C[C[C[4Padd 3_procesos.py [C[C[C[C[C[C[C[C[C[Cpython3[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[14Pgit pushcommit -m "1_procesos"[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cnfig --global user.name "Gabriela"email "gbrito01@ucm.es"[C[C[C[C[C[C[C[C[C[C[C[C[C[C[26Padd 1_procesos.py [C[C[C[C[C[C[C[C[C[C[1Ppython3 1_procesos.py[C[C[C[C[C[C[C[C[C[Cgit add 1_procesos.py [C[C[C[C[C[C[C[C[C[C[C[C[C[Cconfig --global user.email "gbrito01@ucm.es"
-bash-3.2$ git config --global user.email "gbrito01@ucm.es"[C[C[C[C[C[C[C[C[C[C[C[C[C[C[26Padd 4_procesos.py [C[C[C[C[C[C[C[C[C[Cpython3[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[8Pcd ~/practica1[C[C[C[C[C[C[C[C[C[Cgit clone git@github.com:gbrisan/practica1.git[C[C[C[C[C[C[C[C[C[Cls -al .ssh/[K[C[C[C[C[C[C[C[C[C[Cunzip ssh.zip[C[C[C[C[C[C[C[C[C[Cscript multiprocessing.txt[C[C[C[C[C[C[C[C[C[Cgit clone git@github.com:gbrisan/practica1.git[C[C[C[C[C[C[C[C[C[Ccd ~/practica1[K[C[C[C[C[C[C[C[C[C[C[2Pls -al .ssh/[C[C[C[C[C[C[C[C[C[Cunzip ssh.zip[C[C[C[C[C[C[C[C[C[Cls[Kcdgit pushcommit -m "4_procesos"[C[C[C[C[C[C[C[C[C[C[C[C[C[C[4Padd 4_procesos.py [C[C[C[C[C[C[C[C[C[Cpython3[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[14Pgit pushcommit -m "2_procesos"[C[C[C[C[C[C[C[C[C[C[C[C[C[C[4Padd 2_procesos.py [C[C[C[C[C[C[C[C[C[Cpython3[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[14Pgit pushcommit -m "3_procesos"[C[C[C[C[C[C[C[C[C[C[C[C[C[C[4Padd 3_procesos.py [C[C[C[C[C[C[C[C[C[Cpython3[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[14Pgit pushcommit -m "1_procesos"[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cnfig --global user.name "Gabriela"email "gbrito01@ucm.es"[C[C[C[C[C[C[C[C[C[C[C[C[C[C[26Padd 1_procesos.py [C[C[C[C[C[C[C[C[C[C[1Ppython3 1_procesos.py[C[C[C[C[C[C[C[C[C[Cgit add 1_procesos.py [C[C[C[C[C[C[C[C[C[C[C[C[C[Cconfig --global user.email "gbrito01@ucm.es"[8Pname "Gabriela"[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[14Pmmit -m "1_procesos"[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cnfig --global user.name "Gabriela"
-bash-3.2$ git config --global user.name "Gabriela"email "gbrito01@ucm.es"[C[C[C[C[C[C[C[C[C[C[C[C[C[C[26Padd 4_procesos.py [C[C[C[C[C[C[C[C[C[Cpython3[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[8Pcd ~/practica1[C[C[C[C[C[C[C[C[C[Cgit clone git@github.com:gbrisan/practica1.git[C[C[C[C[C[C[C[C[C[Cls -al .ssh/[K[C[C[C[C[C[C[C[C[C[Cunzip ssh.zip[C[C[C[C[C[C[C[C[C[Cscript multiprocessing.txt[C[C[C[C[C[C[C[C[C[Cgit clone git@github.com:gbrisan/practica1.git[C[C[C[C[C[C[C[C[C[Ccd ~/practica1[K[C[C[C[C[C[C[C[C[C[C[2Pls -al .ssh/[C[C[C[C[C[C[C[C[C[Cunzip ssh.zip[C[C[C[C[C[C[C[C[C[Cls[Kcdgit pushcommit -m "4_procesos"[C[C[C[C[C[C[C[C[C[C[C[C[C[C[4Padd 4_procesos.py [C[C[C[C[C[C[C[C[C[C[C[C[C[Ccommit -m "4_procesos"
-[main db0fafc] 4_procesos
- 1 file changed, 30 insertions(+)
- create mode 100644 4_procesos.py
-bash-3.2$ git push
-Enumerating objects: 4, done.
-Counting objects:  25% (1/4)Counting objects:  50% (2/4)Counting objects:  75% (3/4)Counting objects: 100% (4/4)Counting objects: 100% (4/4), done.
-Delta compression using up to 4 threads
-Compressing objects:  33% (1/3)Compressing objects:  66% (2/3)Compressing objects: 100% (3/3)Compressing objects: 100% (3/3), done.
-Writing objects:  33% (1/3)Writing objects:  66% (2/3)Writing objects: 100% (3/3)Writing objects: 100% (3/3), 652 bytes | 652.00 KiB/s, done.
-Total 3 (delta 0), reused 1 (delta 0), pack-reused 0
-To github.com:gbrisan/practica1.git
-   6c4825a..db0fafc  main -> main
-bash-3.2$ git pushcommit -m "4_procesos"[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cnfig --global user.name "Gabriela"email "gbrito01@ucm.es"[C[C[C[C[C[C[C[C[C[C[C[C[C[C[26Padd 4_procesos.py [C[C[C[C[C[C[C[C[C[Cpython3[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[8Pcd ~/practica1[C[C[C[C[C[C[C[C[C[Cpython3 4_procesos.py [1P[1@3
-  File "/Users/marcelaygabriela/practica1/3_procesos.py", line 17
-    c = Value(’i’, 0) 
-              ^
-SyntaxError: invalid character '’' (U+2019)
-bash-3.2$ python3 3_procesos.py [C[C[C[C[C[C[C[C[C[C[14Pgit pushcommit -m "4_procesos"[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cnfig --global user.name "Gabriela"email "gbrito01@ucm.es"[C[C[C[C[C[C[C[C[C[C[C[C[C[C[26Padd 4_procesos.py [C[C[C[C[C[C[C[C[C[Cpython3[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cgit add[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[1P[1@3
-bash-3.2$ git add 3_procesos.py [C[C[C[C[C[C[C[C[C[Cpython3[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[14Pgit pushcommit -m "4_procesos"[1P_procesos"3_procesos"
-[main c5d3ad6] 3_procesos
- 1 file changed, 22 insertions(+)
- create mode 100644 3_procesos.py
-bash-3.2$ git commit -m "3_procesos"[C[C[C[C[C[C[C[C[C[C[C[C[C[C[4Padd 3_procesos.py [C[C[C[C[C[C[C[C[C[Cpython3[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[14Pgit push
-Warning: Permanently added the ECDSA host key for IP address '140.82.121.4' to the list of known hosts.
-Enumerating objects: 4, done.
-Counting objects:  25% (1/4)Counting objects:  50% (2/4)Counting objects:  75% (3/4)Counting objects: 100% (4/4)Counting objects: 100% (4/4), done.
-Delta compression using up to 4 threads
-Compressing objects:  33% (1/3)Compressing objects:  66% (2/3)Compressing objects: 100% (3/3)Compressing objects: 100% (3/3), done.
-Writing objects:  33% (1/3)Writing objects:  66% (2/3)Writing objects: 100% (3/3)Writing objects: 100% (3/3), 561 bytes | 561.00 KiB/s, done.
-Total 3 (delta 1), reused 0 (delta 0), pack-reused 0
-remote: Resolving deltas:   0% (0/1)[Kremote: Resolving deltas: 100% (1/1)[Kremote: Resolving deltas: 100% (1/1), completed with 1 local object.[K
-To github.com:gbrisan/practica1.git
-   db0fafc..c5d3ad6  main -> main
-bash-3.2$ git pushcommit -m "3_procesos"[C[C[C[C[C[C[C[C[C[C[C[C[C[C[4Padd 3_procesos.py [C[C[C[C[C[C[C[C[C[Cpython3[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[1P[1@2
-fin
-hola soy ana_0, 27082, True, vuelta 0
-hola soy ana_2, 27084, True, vuelta 0
-hola soy ana_1, 27083, True, vuelta 0
-adios
-hola soy ana_2, 27084, True, vuelta 1
-hola soy ana_0, 27082, True, vuelta 1
-hola soy ana_2, 27084, True, vuelta 2
-hola soy ana_1, 27083, True, vuelta 1
-hola soy ana_2, 27084, True, vuelta 3
-hola soy ana_0, 27082, True, vuelta 2
-hola soy ana_0, 27082, True, vuelta 3
-hola soy ana_1, 27083, True, vuelta 2
-hola soy ana_2, 27084, True, vuelta 4
-hola soy ana_1, 27083, True, vuelta 3
-hola soy ana_0, 27082, True, vuelta 4
-hola soy ana_1, 27083, True, vuelta 4
-bash-3.2$ python3 2_procesos.py [C[C[C[C[C[C[C[C[C[C[14Pgit pushcommit -m "3_procesos"[C[C[C[C[C[C[C[C[C[C[C[C[C[C[4Padd 3_procesos.py [C[C[C[C[C[C[C[C[C[Cpython3[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cgit add[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[1P[1@2[C
-bash-3.2$ git add 2_procesos.py [C[C[C[C[C[C[C[C[C[Cpython3[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[14Pgit pushcommit -m "3_procesos"[C[1P_procesos"2_procesos"
-[main 0942af7] 2_procesos
- 1 file changed, 26 insertions(+)
- create mode 100644 2_procesos.py
-bash-3.2$ git commit -m "2_procesos"[C[C[C[C[C[C[C[C[C[C[C[C[C[C[4Padd 2_procesos.py [C[C[C[C[C[C[C[C[C[Cpython3[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[14Pgit push
-Enumerating objects: 4, done.
-Counting objects:  25% (1/4)Counting objects:  50% (2/4)Counting objects:  75% (3/4)Counting objects: 100% (4/4)Counting objects: 100% (4/4), done.
-Delta compression using up to 4 threads
-Compressing objects:  33% (1/3)Compressing objects:  66% (2/3)Compressing objects: 100% (3/3)Compressing objects: 100% (3/3), done.
-Writing objects:  33% (1/3)Writing objects:  66% (2/3)Writing objects: 100% (3/3)Writing objects: 100% (3/3), 548 bytes | 548.00 KiB/s, done.
-Total 3 (delta 1), reused 1 (delta 0), pack-reused 0
-remote: Resolving deltas:   0% (0/1)[Kremote: Resolving deltas: 100% (1/1)[Kremote: Resolving deltas: 100% (1/1), completed with 1 local object.[K
-To github.com:gbrisan/practica1.git
-   c5d3ad6..0942af7  main -> main
-bash-3.2$ git pushcommit -m "2_procesos"[C[C[C[C[C[C[C[C[C[C[C[C[C[C[4Padd 2_procesos.py [C[C[C[C[C[C[C[C[C[Cpython3[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cgit add[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cpython3[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[14Pgit pushpython3 2_procesos.py [1P[1@1
-fin
-hola soy ana 1 vuelta 0
-hola soy ana 1 vuelta 1
-hola soy ana 2 vuelta 0
-hola soy ana 0 vuelta 0
-hola soy ana 3 vuelta 0
-hola soy ana 4 vuelta 0
-hola soy ana 5 vuelta 0
-hola soy ana 6 vuelta 0
-hola soy ana 7 vuelta 0
-hola soy ana 5 vuelta 1
-adios
-hola soy ana 9 vuelta 0
-hola soy ana 8 vuelta 0
-hola soy ana 6 vuelta 1
-hola soy ana 9 vuelta 1
-hola soy ana 8 vuelta 1
-hola soy ana 2 vuelta 1
-hola soy ana 0 vuelta 1
-hola soy ana 9 vuelta 2
-hola soy ana 1 vuelta 2
-hola soy ana 0 vuelta 2
-hola soy ana 3 vuelta 1
-hola soy ana 2 vuelta 2
-hola soy ana 4 vuelta 1
-hola soy ana 4 vuelta 2
-hola soy ana 3 vuelta 2
-hola soy ana 8 vuelta 2
-hola soy ana 6 vuelta 2
-hola soy ana 5 vuelta 2
-hola soy ana 7 vuelta 1
-hola soy ana 7 vuelta 2
-bash-3.2$ python3 1_procesos.py [C[C[C[C[C[C[C[C[C[C[14Pgit pushcommit -m "2_procesos"[1P_procesos"1_procesos"
-On branch main
-Your branch is up to date with 'origin/main'.
+Warning: Permanently added 'github.com' (ED25519) to the list of known hosts.
+remote: Enumerating objects: 4, done.[K
+remote: Counting objects:  25% (1/4)[Kremote: Counting objects:  50% (2/4)[Kremote: Counting objects:  75% (3/4)[Kremote: Counting objects: 100% (4/4)[Kremote: Counting objects: 100% (4/4), done.[K
+remote: Compressing objects:  33% (1/3)[Kremote: Compressing objects:  66% (2/3)[Kremote: Compressing objects: 100% (3/3)[Kremote: Compressing objects: 100% (3/3), done.[K
+remote: Total 4 (delta 0), reused 0 (delta 0), pack-reused 0[K
+Recibiendo objetos:  25% (1/4)Recibiendo objetos:  50% (2/4)Recibiendo objetos:  75% (3/4)Recibiendo objetos: 100% (4/4)Recibiendo objetos: 100% (4/4), 12.48 KiB | 1.13 MiB/s, listo.
+[?2004h]0;alumno@aula426: ~[01;32malumno@aula426[00m:[01;34m~[00m$ ls
+[?2004l[0m[01;34mDescargas[0m            os          sesion.txt                     Untitled4.ipynb
+[01;34mDocumentos[0m           [01;34mPlantillas[0m  [01;34msnap[0m                           Untitled5.ipynb
+[01;34mEscritorio[0m           [01;34mpractica1[0m   [01;31mspark-3.2.1-bin-hadoop3.2.tgz[0m  Untitled.ipynb
+[01;34mImágenes[0m             [01;34mprpa[0m        Untitled1.ipynb                [01;34mvenv[0m
+multiprocessing.txt  [01;34mPúblico[0m     Untitled2.ipynb                [01;34mVídeos[0m
+[01;34mMúsica[0m               [40;31;01mpyspark[0m     Untitled3.ipynb
+[?2004h]0;alumno@aula426: ~[01;32malumno@aula426[00m:[01;34m~[00m$ python3
+[?2004lPython 3.10.6 (main, Nov 14 2022, 16:10:14) [GCC 11.3.0] on linux
+Type "help", "copyright", "credits" or "license" for more information.
+>>> practica1
+Traceback (most recent call last):
+  File "<stdin>", line 1, in <module>
+NameError: name 'practica1' is not defined
+>>> practica1.py
+Traceback (most recent call last):
+  File "<stdin>", line 1, in <module>
+NameError: name 'practica1' is not defined
+>>> ^V
+KeyboardInterrupt
+>>> ^D
+  File "<stdin>", line 1
+    
+    ^
+SyntaxError: invalid syntax
+>>> 
+[?2004h]0;alumno@aula426: ~[01;32malumno@aula426[00m:[01;34m~[00m$ python[K[K[K[K[K[Kcd practica1/
+[?2004l[?2004h]0;alumno@aula426: ~/practica1[01;32malumno@aula426[00m:[01;34m~/practica1[00m$ python3 practica1.py
+[?2004lfin
+hola 0
+hola 0
+hola 1
+hola 2
+hola 1
+hola 2
+hola 3
+hola 4
+hola 3
+hola 4
+[?2004h]0;alumno@aula426: ~/practica1[01;32malumno@aula426[00m:[01;34m~/practica1[00m$ git add practica1.py
+[?2004l[?2004h]0;alumno@aula426: ~/practica1[01;32malumno@aula426[00m:[01;34m~/practica1[00m$ git commit -m 1e1l1 1[C
+[?2004lerror: ruta especificada '1' no concordó con ningún archivo conocido por git
+[?2004h]0;alumno@aula426: ~/practica1[01;32malumno@aula426[00m:[01;34m~/practica1[00m$ git commit -m el 1"[C[1@"
+[?2004lIdentidad del autor desconocido
 
-Untracked files:
-  (use "git add <file>..." to include in what will be committed)
-	[31m.DS_Store[m
-	[31m1_procesos.py[m
+*** Por favor cuéntame quién eres.
 
-nothing added to commit but untracked files present (use "git add" to track)
-bash-3.2$ git commit -m "1_procesos"[C[C[C[C[C[C[C[C[C[C[4Ppython3 1_procesos.py [C[C[C[C[C[C[C[C[C[C[14Pgit pushcommit -m "2_procesos"[C[C[C[C[C[C[C[C[C[C[C[C[C[C[4Padd 2_procesos.py [1P[1@1
-bash-3.2$ git add 1_procesos.py [C[C[C[C[C[C[C[C[C[C[C[C[C[Ccommit -m "1_procesos"[C[C[C[C[C[C[C[C[C[C[4Ppython3 1_procesos.py [C[C[C[C[C[C[C[C[C[Cgit commit -m "1_procesos"
-[main de8d539] 1_procesos
- 1 file changed, 23 insertions(+)
- create mode 100644 1_procesos.py
-bash-3.2$ git push
-Enumerating objects: 4, done.
-Counting objects:  25% (1/4)Counting objects:  50% (2/4)Counting objects:  75% (3/4)Counting objects: 100% (4/4)Counting objects: 100% (4/4), done.
-Delta compression using up to 4 threads
-Compressing objects:  33% (1/3)Compressing objects:  66% (2/3)Compressing objects: 100% (3/3)Compressing objects: 100% (3/3), done.
-Writing objects:  33% (1/3)Writing objects:  66% (2/3)Writing objects: 100% (3/3)Writing objects: 100% (3/3), 509 bytes | 509.00 KiB/s, done.
-Total 3 (delta 1), reused 0 (delta 0), pack-reused 0
-remote: Resolving deltas:   0% (0/1)[Kremote: Resolving deltas: 100% (1/1)[Kremote: Resolving deltas: 100% (1/1), completed with 1 local object.[K
+Ejecuta
+
+  git config --global user.email "you@example.com"
+  git config --global user.name "Tu Nombre"
+
+para configurar la identidad por defecto de tu cuenta.
+Omite --global para configurar tu identidad solo en este repositorio.
+
+fatal: no es posible auto-detectar la dirección de correo (se obtuvo 'alumno@aula426.(none)')
+[?2004h]0;alumno@aula426: ~/practica1[01;32malumno@aula426[00m:[01;34m~/practica1[00m$ git config --global helfferr[K[K[K[Kerrer[K[K[K[K[K[K[K[K[Kuser.email "helferrer[K@ucm.es"
+[?2004l[?2004h]0;alumno@aula426: ~/practica1[01;32malumno@aula426[00m:[01;34m~/practica1[00m$ git config --global user.email "helferre@ucm.es"[1P[1P[1P[1P[C[1P "helferre@ucm.es"n "helferre@ucm.es"a "helferre@ucm.es"m "helferre@ucm.es"e "helferre@ucm.es"[C "helferre@ucm.es"[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[1Ps"[1Ps"[1Ps"[1Ps"[1Ps"[1Ps"[1Ps"[C[1P"[1P"[1P"[1P"[1P"[1P"[1P"[1P"H"e"l"e"n"a"[C
+[?2004l[?2004h]0;alumno@aula426: ~/practica1[01;32malumno@aula426[00m:[01;34m~/practica1[00m$ git commit -m "el 1"
+[?2004l[main c058fb2] el 1
+ 1 file changed, 29 insertions(+)
+ create mode 100644 practica1.py
+[?2004h]0;alumno@aula426: ~/practica1[01;32malumno@aula426[00m:[01;34m~/practica1[00m$ git push
+[?2004lEnumerando objetos: 4, listo.
+Contando objetos:  25% (1/4)Contando objetos:  50% (2/4)Contando objetos:  75% (3/4)Contando objetos: 100% (4/4)Contando objetos: 100% (4/4), listo.
+Compresión delta usando hasta 6 hilos
+Comprimiendo objetos:  33% (1/3)Comprimiendo objetos:  66% (2/3)Comprimiendo objetos: 100% (3/3)Comprimiendo objetos: 100% (3/3), listo.
+Escribiendo objetos:  33% (1/3)Escribiendo objetos:  66% (2/3)Escribiendo objetos: 100% (3/3)Escribiendo objetos: 100% (3/3), 595 bytes | 595.00 KiB/s, listo.
+Total 3 (delta 0), reusados 0 (delta 0), pack-reusados 0
 To github.com:gbrisan/practica1.git
-   0942af7..de8d539  main -> main
-bash-3.2$ exit
+   3672ce5..c058fb2  main -> main
+[?2004h]0;alumno@aula426: ~/practica1[01;32malumno@aula426[00m:[01;34m~/practica1[00m$ rm [K]0;alumno@aula426: ~/practica1[01;32malumno@aula426[00m:[01;34m~/practica1[00m$ rm [K]0;alumno@aula426: ~/practica1[01;32malumno@aula426[00m:[01;34m~/practica1[00m$ rm more [K[K[K[K[K[K[K[Kmore .gitconfig
+[?2004lmore: no se puede abrir .gitconfig: No existe el archivo o el directorio
+[?2004h]0;alumno@aula426: ~/practica1[01;32malumno@aula426[00m:[01;34m~/practica1[00m$ rm -r .ssh/ .git*
+[?2004lrm: no se puede borrar '.ssh/': No existe el archivo o el directorio
+rm: ¿borrar el fichero regular '.git/objects/pack/pack-954a7f6b5296225b0acace31ad34f250c7323f8d.pack'  protegido contra escritura? (s/n) rm: ¿borrar el fichero regular '.git/objects/pack/pack-954a7f6b5296225b0acace31ad34f250c7323f8d.idx'  protegido contra escritura? (s/n) rm: no se puede borrar '.git/objects/pack': El directorio no está vacío
+rm: ¿borrar el fichero regular '.git/objects/de/3b6ef5bda5b487b7b9e3af29ac7ffed2f05574'  protegido contra escritura? (s/n) rm: no se puede borrar '.git/objects/de': El directorio no está vacío
+rm: ¿borrar el fichero regular '.git/objects/b5/be24281d9e39528a425f781b419ddb171a1029'  protegido contra escritura? (s/n) rm: no se puede borrar '.git/objects/b5': El directorio no está vacío
+rm: ¿borrar el fichero regular '.git/objects/c0/58fb28b4fe8b888e40cbe37296fb80e58d4c0a'  protegido contra escritura? (s/n) rm: no se puede borrar '.git/objects/c0': El directorio no está vacío
+[?2004h]0;alumno@aula426: ~/practica1[01;32malumno@aula426[00m:[01;34m~/practica1[00m$ [?2004l
+exit
 
-Script done on Tue Feb  7 14:32:18 2023
+Script done on 2023-02-02 10:54:20+01:00 [COMMAND_EXIT_CODE="1"]
